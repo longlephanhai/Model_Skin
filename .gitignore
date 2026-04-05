@@ -4,3 +4,7 @@ dataset_detection
 runs
 yolo11s.pt
 yolo26n.pt
+.venv
+tensorboard
+trained_models
+__pycache__

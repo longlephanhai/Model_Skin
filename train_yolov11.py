@@ -10,7 +10,7 @@ def start_training():
         data="./data.yaml",  
         epochs=100,          
         imgsz=640,           
-        batch=16,         
+        batch=8,         
         device=0,            
         workers=4,          
         project="SkinProject",
