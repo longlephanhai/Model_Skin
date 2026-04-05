@@ -1,0 +1,28 @@
+# train: ./data/train/images
+# val: ./data/valid/images
+# test: ./data/test/images
+
+# nc: 6
+# names: ['blackheads', 'dark spot', 'nodules', 'papules', 'pustules', 'whiteheads']
+
+# roboflow:
+#   workspace: kritsakorn
+#   project: acne-kbm0q
+#   version: 21
+#   license: Private
+#   url: https://universe.roboflow.com/kritsakorn/acne-kbm0q/dataset/21
+
+train: ./dataset_detection/train/images
+val: ./dataset_detection/valid/images
+test: ./dataset_detection/test/images
+
+nc: 1
+# names: ['blackheads', 'dark spot', 'nodules', 'papules', 'pustules', 'whiteheads']
+names: ['acne']
+
+roboflow:
+  workspace: kritsakorn
+  project: acne-kbm0q
+  version: 21
+  license: Private
+  url: https://universe.roboflow.com/kritsakorn/acne-kbm0q/dataset/21

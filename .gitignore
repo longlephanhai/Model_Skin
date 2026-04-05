@@ -1,0 +1,6 @@
+data
+dataset_classification
+dataset_detection
+runs
+yolo11s.pt
+yolo26n.pt
